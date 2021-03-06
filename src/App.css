@@ -1,16 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cart
+{
+  border-bottom: 2px solid lightgreen;
+  padding: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  align-items: flex-end;
 }
 
 .App-header {
@@ -28,11 +22,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
